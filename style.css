@@ -1,16 +1,22 @@
 body {
-    background-color: #99ddfc;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
 }
 
 #clock{
-    color: #c3dae5;
-    background-color: #002444;
-    font-size: 50px;
-    padding: 87px;
-    width: 25%;
-    margin-left: 326px;
-    font-family: helvetica;
+    height: 150px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
-    margin-top: 167px;
-    border-radius: 50%;
-   }
+    background: black;
+    color: #00ff2f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 80px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 17px 0px rgba(50, 50, 50, 0.75);
+}
